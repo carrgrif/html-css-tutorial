@@ -1,0 +1,12 @@
+span {
+    /* display: block; */
+    display: inline-block; /* adds margin all the way around for inline elements */
+    margin: 20px;
+    padding: 20px;
+}
+div {
+    /* display: inline; */
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,47 @@
+Notes
+
+* Style sheet - a list of CSS rules/rule sets
+* Selectors - the things that target the elements that we want to style (e.g. div, li, etc.)
+* Declarations - key/value pairs that tell us what type of styling (e.g. color: red;)
+* Can have as many declarations as we want in each selector
+
+How Can We Add CSS to HTML?
+* Add directly in tags
+* Create external style sheet (preferred method)
+
+Inline Elements
+* Don't take up any more room than their content needs
+* span, img, strong, em, a and more...
+
+Block-level Elements
+* Take up the whole width of a page regardless of content
+* p, div, h1, h2, h3, ul, li and more...
+
+Margin & Padding
+* Margin controls spacing outside of the border
+* Padding controls spacing within the border
+E.g.
+####################################
+#            margin                #
+####################################
+#            padding               #
+####################################
+#                                  #
+#             div                  #
+#                                  #
+####################################
+#            padding               #
+####################################
+#            margin                #
+####################################
+
+* Block-level elements can have margin all the way around the element
+* Inline elements can only have margin to the left or right of the element
+* Padding can go all the way around for both types of elements
+* Be careful of padding collapse for inline elements as the page gets smaller
+* Margin for block elements isn't always going to be the 2 margins combined (e.g. two div elements on
+top of each other, each has 20px margin - only ends up being 20px apart, not 40px)
+
+Default Browser Styles
+* Styles that are already applied to elements by a browser (e.g. an anchor tag is underlined, highlighted blue/purple)
+* Allows us to tell what type of element it is without an explicit CSS
