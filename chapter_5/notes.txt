@@ -1,0 +1,17 @@
+** The Cascade **
+
+Inheritance
+- HTML elements can inherit CSS properties that are applied to their parents
+- E.g.
+<div>
+    <p>Hello, <span>world!</span></p>
+</div>
+
+Styled with:
+div {
+    color: red;
+}
+
+- Will make all elements within the div have red text
+- Not all properties are inherited - margin, padding, background styles, etc. are not
+- Mainly ones like font, text color/styles that are inherited

@@ -1,0 +1,73 @@
+/* this will grab all elements with class error */
+/* .error {
+    color: red;
+} */
+
+/* this will only style p tags with class error as red, different from descendant selector as noted below */
+/* p.error {
+    color: red;
+} */
+/* p.success {
+    color: #4fdb4f;
+} */
+/* chains classes together */
+/* p.success.feedback {
+    border: 1px dashed #4fdb4f;
+} */
+
+/* uses id as the selector instead, notice how we lead with # */
+/* all ids must be unique on the page (across all elements), not recommended for CSS hooks */
+/* div#content {
+    background-color: #ebebeb;
+    padding: 20px;
+} */
+
+/* descendant selector - target specific tags in an element/tag */
+/* div .error {
+    color: red;
+} */
+
+/* attribute selector - looking for a tags with an href attribute */
+/* can omit the specific value of href if we want to */
+/* a[href="https://www.thenetninja.co.uk"] {
+    background-color: #3dd13d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+/* shortening the value to check for, use an asterisk (*) - any match */
+/* a[href*="thenetninja"] {
+    background-color: #3dd13d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+/* use $ sign to get end of attribute matching */
+/* a[href$=".com"] {
+    color: white;
+    background: red;
+    border: 2px solid blue;
+} */
+
+/* practicing inheritance */
+div {
+    color: lightcoral;
+    border: 1px solid grey; /* not inherited */
+    margin: 40px;
+    font-weight: bold; /* not inherited */
+}
+/* can explicity inherit these values from parent */
+/* specificity takes priority over all */
+div p {
+    border: inherit;
+    margin: inherit;
+    color: crimson; /* more specific selector takes presidence over parent style */
+}
+/* whatever is declared last will take presidence - bottom of style sheet takes presidence */
+p {
+    color: orange;
+}
