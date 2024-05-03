@@ -1,0 +1,4 @@
+** Pseudo Classes **
+- Style elements when they're in a particular state
+- hover, focus, first child of a parent
+- E.g. :hover, :focus, :first-child
