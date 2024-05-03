@@ -1,0 +1,10 @@
+Position and Layout
+
+- Static: doesn't change (default value, can be used to put something back into normal position if it was changed)
+- Relative: moves the element to a spot from the original position where the element is defined (element space doesn't change, the value just gets moved)
+- Fixed: An element will be fixed given the appropriate parameters  (e.g. a header gets fixed to the top of the page no matter where you scroll)
+- Absolute: An element is placed in absolute position in regards to its parent position property (space is not retained)
+    parent element must be positioned properly (not absolute)
+    position absolute on the element we want to position the element
+    then left, right, top, or bottom to alter the element's location
+- Sticky: a mixture of fixed and static
