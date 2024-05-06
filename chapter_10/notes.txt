@@ -1,0 +1,4 @@
+** Responsive Design **
+- Media Queries: tell the browser how to style an element at particular viewport dimensions
+- Viewport Meta Tag: tells the browser what width the viewport should be
+- Responsive Images: only load smaller images for mobile devices
